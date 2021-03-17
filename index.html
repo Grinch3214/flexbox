@@ -1,0 +1,127 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>FLEXBOX</title>
+		<!-- Адаптив -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="wrapper">
+			<div class="header">
+				<div class="header__body">
+					<h1>Привет, друг!</h1>
+					<ul class="list">
+						<li>У тебя все получится!</li>
+						<li>Никогда не сдавайся!</li>
+						<li>Сегодня ты уже знаешь больше чем вчера!</li>
+						<li>Развивайся!</li>
+					</ul>
+				</div>
+				<div class="header__image">
+					<img src="img/image_1.png" alt="logo motivation">
+				</div>
+			</div>
+			<div class="content">
+				<div class="what">
+					<div class="what__image">
+						<img src="img/image_2.jpg" alt="flextable">
+					</div>
+					<div class="what__text">
+						<h2>Что такое FlexBox?</h2>
+						<p>Flexbox - это целый модуль, содержащий в себе набор свойств и их значений как для родителя flex-контейнера так и для его дочерних элементов flex-элементов.</p>
+						<p>Основным преимуществом гибкой FLEX разметки является возможность изменять ширину/высоту пространство вокруг и порядок flex-элементов, для того чтобы наилучшим образом заполнить доступное пространство flex-контейнера</p>
+					</div>
+				</div>
+				<div class="column">
+					<h2>Колонки с flex-контейнерами</h2>
+					<div class="column__flex">
+						<div class="column__box">
+							<div class="column__image">
+								<img src="img/image_3.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<h3>The description for the image</h3>
+								<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+							</div>
+						</div>
+						<div class="column__box">
+							<div class="column__image">
+								<img src="img/image_3.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<h3>The description for the image</h3>
+								<p>Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.</p>
+							</div>
+						</div>
+						<div class="column__box">
+							<div class="column__image">
+								<img src="img/image_3.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<h3>The description for the image</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+							</div>
+						</div>
+						<div class="column__box">
+							<div class="column__image">
+								<img src="img/image_3.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<h3>The description for the image</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis facilis fuga, illo at. Natus eos, eligendi illum rerum omnis porro ex, magni, explicabo veniam incidunt in quam sapiente ut ipsum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="vertical">
+					<h2>Вертикальное выравнивание</h2>
+					<div class="vertical__flex">
+						<div class="vertical__box">
+							<div class="vertical__box_1">Карточка</div>
+							<div class="vertical__box_2">текст</div>
+							<div class="vertical__box_3">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur.</p>
+							</div>
+							<div class="vertical__box_4">
+								<a href="#">какой-то переход</a>
+							</div>
+						</div>
+						<div class="vertical__box">
+							<div class="vertical__box_1">Карточка</div>
+							<div class="vertical__box_2">текст</div>
+							<div class="vertical__box_3">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur voluptatibus atque et itaque, hic, deleniti. Sunt commodi tempora voluptatum dolorum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint tenetur fugit vel, eligendi illum, placeat quo vero reiciendis consectetur tempora voluptatum dolorum.</p>
+							</div>
+							<div class="vertical__box_4">
+								<a href="#">куда</a>
+							</div>
+						</div>
+						<div class="vertical__box">
+							<div class="vertical__box_1">Карточка</div>
+							<div class="vertical__box_2">текст</div>
+							<div class="vertical__box_3">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+							</div>
+							<div class="vertical__box_4">
+								<a href="#">а фиг его знает</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				какой-то подвал 2021
+			</div>
+		</div>
+	</body>
+</html>
